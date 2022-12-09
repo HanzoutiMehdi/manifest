@@ -2,9 +2,9 @@
 
 <manifest>
 <remote fetch="https://github.com/HanzoutiMehdi"  name="origin" / >
-<default  remote = "origin" sync-j="4" revision="master"/>
+<default  remote = "origin" sync-j="4" revision="main"/>
 
-<project  name = "test" path="my_app"/>
+<project  name = "f4_toolchain_shared" path="my_app"/>
 <project  name = "sharedlib_got" path="SharedLib"/>
 
 </manifest>
