@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-F"?>
+
+<manifest>
+<remote fetch="https://github.com/HanzoutiMehdi"  name="origin" / >
+<default  remote = "origin" sync-j="4" revision="master"/>
+
+<project  name = "test" path="my_app"/>
+<project  name = "sharedlib_got" path="SharedLib"/>
+
+</manifest>
