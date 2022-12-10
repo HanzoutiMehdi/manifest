@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-F"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
 <manifest>
-<remote fetch="https://github.com/HanzoutiMehdi"  name="origin" / >
-<default  remote = "origin" sync-j="4" revision="main"/>
+ <remote fetch="https://github.com/HanzoutiMehdi"  name="origin"/>
+  <default  remote = "origin" sync-j="4" revision="main"/>
 
-<project  name = "f4_toolchain_shared" path="my_app"/>
-<project  name = "sharedlib_got" path="SharedLib"/>
+  <project  name = "f4_toolchain_shared" path="my_app"/>
+  <project  name = "sharedlib_got" path="SharedLib"/>
 
 </manifest>
